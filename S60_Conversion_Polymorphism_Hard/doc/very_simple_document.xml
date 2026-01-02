@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="very-important-document">
+    <title>Very important document</title>
+    <para>
+      This is the abstract for a very important document with several
+      sections
+    </para>
+  </section>
+</article>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="very-important-document">
+    <title>Very important document</title>
+    <para>
+      This is the abstract for a very important document with several
+      sections
+    </para>
+    <section xml:id="the-first-section">
+      <title>The first section</title>
+      <para>
+        Information about the first topic of interest
+      </para>
+    </section>
+    <section xml:id="the-second-section">
+      <title>The second section</title>
+      <para>
+        Information about the second topic of interest.
+      </para>
+      <section xml:id="the-first-subsection-of-the-second-section">
+        <title>The first subsection of the second section</title>
+        <para>
+          Organized information part 1 ### The second subsection of the
+          second section Organized information part 2
+        </para>
+      </section>
+      <section xml:id="the-thrid-subsection-show-various-types-of-text-formattings">
+        <title>The thrid subsection show various types of text
+        formattings</title>
+        <para>
+          <emphasis role="strong">This is bold text</emphasis>
+        </para>
+        <para>
+          <emphasis>This is italic text</emphasis>
+        </para>
+        <para>
+          <emphasis role="strikethrough">This is Strikethrough
+          text</emphasis>
+        </para>
+      </section>
+    </section>
+  </section>
+  <section xml:id="lists">
+    <title>Lists</title>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          First ordered list item
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          second item
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          third
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          last item of list
+        </para>
+      </listitem>
+    </orderedlist>
+  </section>
+  <section xml:id="links">
+    <title>Links</title>
+    <para>
+      <link xlink:href="https://www.google.com">I’m an inline-style
+      link</link>
+    </para>
+    <para>
+      <link xlink:href="https://www.google.com">I’m an inline-style link
+      with title</link>
+    </para>
+    <para>
+      <link xlink:href="https://www.mozilla.org">I’m a reference-style
+      link</link>
+    </para>
+    <section xml:id="web-url">
+      <title>Web URL</title>
+      <para>
+        http://www.example.com
+      </para>
+    </section>
+    <section xml:id="web-url-in-angle-brackets">
+      <title>Web URL in angle brackets</title>
+      <para>
+        <link xlink:href="http://www.example.com" role="uri">http://www.example.com</link>
+      </para>
+      <para>
+        Some text to show that the reference links can follow later.
+      </para>
+    </section>
+  </section>
+  <section xml:id="images">
+    <title>Images</title>
+    <para>
+      Inline-style: <inlinemediaobject>
+        <imageobject>
+          <objectinfo>
+            <title>Logo Title Text 1</title>
+          </objectinfo>
+          <imagedata fileref="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" />
+        </imageobject>
+        <textobject>
+          <phrase>alt text</phrase>
+        </textobject>
+      </inlinemediaobject>
+    </para>
+  </section>
+  <section xml:id="code">
+    <title>Code</title>
+    <programlisting language="c#">
+using System.IO.Compression;
+
+#pragma warning disable 414, 3021
+
+namespace MyApplication
+{
+    [Obsolete(&quot;...&quot;)]
+    class Program : IInterface
+    {
+        public static List&lt;int&gt; JustDoIt(int count)
+        {
+            Console.WriteLine($&quot;Hello {Name}!&quot;);
+            return new List&lt;int&gt;(new int[] { 1, 2, 3 })
+        }
+    }
+}
+</programlisting>
+  </section>
+</article>

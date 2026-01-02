@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "sections": [
+    { "id": "very-important-document", "title": "Very important document" },
+    { "id": "lists", "title": "Lists" },
+    { "id": "links", "title": "Links" },
+    { "id": "images", "title": "Images" },
+    { "id": "code", "title": "Code" }
+  ]
+}
